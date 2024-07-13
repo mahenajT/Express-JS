@@ -1,0 +1,11 @@
+Four Topics We Need To Focus
+- Request
+- Response
+- Middleware
+- Database Operations
+
+==============================
+
+Simple String Method
+- response.send() // Response Body
+- response.end() // Response Ending
