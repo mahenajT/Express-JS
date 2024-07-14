@@ -4,7 +4,7 @@ const route = Express(); //This line calls the express function, which returns a
 
 // Download Response
 route.get("/download", function (req, res) {
-  res.download("6_Upload.jpg");
+  res.download("6_Image.jpg");
 });
 
 route.listen(" ", function () {
