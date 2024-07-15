@@ -7,7 +7,6 @@ app.use(bodyParser.json()); // for parsing application/json()
 
 
 
-
 // Send JSON raw Data in JSON body
 app.post("/", (req, res) => {
   let jsonData = req.body;
@@ -18,14 +17,12 @@ app.post("/", (req, res) => {
 
 
 
-
 // Specific Key catch then Show the value in The Response
 app.post("/one", (req, res) => {
   let jsonData = req.body;
   let name = jsonData.name;
   res.send(name);
 });
-
 
 
 
